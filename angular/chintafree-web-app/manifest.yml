@@ -2,5 +2,6 @@
 applications:
 - name: chintafreewebapp
   instances: 1
-  memory: 256M
-  command: npm start
+  memory: 64M
+  buildpack: staticfile_buildpack
+  path: dist/
